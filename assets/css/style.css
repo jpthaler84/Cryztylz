@@ -1,0 +1,75 @@
+body, html{
+	height: 100%;
+	margin: 0px;
+}
+
+.jumbostyle{
+	background-image: url(../images/crystals.jpg);
+	color: white;
+	text-align: center;
+	font-size: 72px;
+}
+
+.wallpaper{
+	background-image: url(../images/wizard.jpg); 
+  	position: fixed; 
+  	top: 0; 
+  	left: 0; 
+  	min-width: 100%;
+  	min-height: 100%;
+  	text-align: center;
+}
+
+p{
+	text-align: center;
+	color: black;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+.gem{
+	height: 200px;
+	width: 200px;
+	background: none;
+	border: none;
+	display: inline;
+	margin: auto;
+}
+
+.gem-align{
+	text-align: center;
+}
+
+.paragraph{
+	background-color:rgba(0,100,0,0.25);
+	padding-bottom: 5px;
+}
+
+.wiz-guess{
+	background-color:rgba(255,0,0,0.5);
+}
+
+.user-guess{
+	background-color:rgba(0,0,255,0.5);
+}
+
+.wiz-score{
+	background-color:rgba(255,0,0,0.75);
+}
+
+.user-score{
+	background-color:rgba(0,0,255,0.75);
+}
+
+#wizardnum{
+	margin-top: 25px;
+}
+
+#usernum{
+	margin-top: 25px;
+}
+
+

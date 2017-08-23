@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cryztylz Collector</title>
+    <!-- Reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+    <div class="container wallpaper">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="jumbotron jumbostyle">Cryztylz Collector</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 paragraph">
+                <h4>
+                    Greetings, traveler!
+                </h4>
+                <h4>
+                    You will be given a random number at the start of the game.
+                </h4>
+                <h4>
+                    There are four magic crystals below. Choosing a crystal will add a specific amount of points to your score.
+                </h4>
+                <h4>
+                    If you match your score exactly to mine, you win. If your score goes above, you lose!
+                </h4>
+                <h4>
+                    The value of each crystal is hidden from your mortal eyes until you choose that crystal.
+                </h4>
+                <h4>
+                    Each time you play, the value of each crystal changes. Good luck!
+                </h4>
+            </div>
+        </div>
+        <div class="row score">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block wiz-score">
+                        <h2>Wizard Wins</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block user-score">
+                        <h2>Your Wins</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 wiz-guess">
+                <h1 id="wizardnum" class="jumbotron"></h1>
+            </div>
+            <div class="col-md-6 user-guess">
+                <h1 id="usernum" class="jumbotron" value=""></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 gem-align">
+                <button id="diamond" class="btn-primary img-thumbnail gem" data-value=""><img src="assets/images/diamond.png" alt=""></button>
+                <button id="emerald" class="btn-primary img-thumbnail gem" data-value=""><img src="assets/images/emerald.png" alt=""></button>
+                <button id="ruby" class="btn-primary img-thumbnail gem" data-value=""><img src="assets/images/ruby.png" alt=""></button>
+                <button id="topaz" class="btn-primary img-thumbnail gem" data-value=""><img src="assets/images/topaz.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
